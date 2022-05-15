@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body {
+    height: 2382px;
+    width: 1440px;
+}
+
 .heading {
     position: absolute;
     width: 1440px;
@@ -11,4 +16,29 @@
     left: 0px;
     top: 0px;
     background: #f0fff0;
+}
+
+.nav {
+    display: flex;
+}
+
+.logo {
+    position: absolute;
+    left: 120px;
+    top: 15px;
+}
+
+#logo {
+    height: 40px;
+    width: 115px;
+}
+
+.manu {
+    display: flex;
+    align-items: center;
+}
+
+.manu-list {
+    display: flex;
+    text-decoration: none;
 }
