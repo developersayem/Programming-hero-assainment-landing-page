@@ -4,4 +4,11 @@
     box-sizing: border-box;
 }
 
-.heading {}
+.heading {
+    position: absolute;
+    width: 1440px;
+    height: 576px;
+    left: 0px;
+    top: 0px;
+    background: #f0fff0;
+}
