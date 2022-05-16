@@ -142,4 +142,103 @@ body {
     background: #21b573;
     border: none;
     border-radius: 33px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.card {
+    cursor: pointer;
+}
+
+.card1 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 96px;
+    top: 618px;
+    background: #f8fffb;
+    border-radius: 10px;
+}
+
+.card2 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 370px;
+    top: 618px;
+    background: #f8fffb;
+    border-radius: 10px;
+}
+
+.card3 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 645px;
+    top: 618px;
+    background: #f8fffb;
+    border-radius: 10px;
+}
+
+.card4 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 919px;
+    top: 618px;
+    background: #f8fffb;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 66px;
+    height: 85px;
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+
+.card h2 {
+    position: relative;
+    top: 70px;
+    left: 60px;
+    height: 36px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+    color: #413960;
+}
+
+.card p {
+    position: relative;
+    top: 70px;
+    left: 70px;
+    width: 128px;
+    height: 24px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #585859;
+}
+
+.card2 h2 {
+    left: 40px;
+}
+
+.card3 h2 {
+    left: 40px;
+}
+
+.card4 h2 {
+    left: 40px;
+}
+
+.card:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.308);
 }
