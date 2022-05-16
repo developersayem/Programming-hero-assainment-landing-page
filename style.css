@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
 * {
     margin: 0;
     padding: 0;
@@ -5,8 +6,9 @@
 }
 
 body {
-    height: 2382px;
-    width: 1440px;
+    height: 100vh;
+    width: 100vw;
+    font-family: "Poppins", sans-serif;
 }
 
 .heading {
@@ -31,14 +33,34 @@ body {
 #logo {
     height: 40px;
     width: 115px;
+    cursor: pointer;
 }
 
 .manu {
-    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    padding: 10px;
     align-items: center;
 }
 
 .manu-list {
     display: flex;
-    text-decoration: none;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.item {
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.singin-btn {
+    padding: 12px 28px;
+    border: none;
+    border-radius: 33px;
+    background-color: #21b573;
+    color: #ffffff;
+    margin-top: -5px;
+    cursor: pointer;
 }
