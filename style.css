@@ -37,7 +37,7 @@ body {
     cursor: pointer;
 }
 
-.manu {
+.menu {
     position: absolute;
     top: 15px;
     left: 56%;
@@ -45,7 +45,7 @@ body {
     align-items: center;
 }
 
-.manu-list {
+.menu-list {
     display: flex;
     justify-content: space-between;
     list-style: none;
