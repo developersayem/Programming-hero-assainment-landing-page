@@ -9,7 +9,6 @@ body {
     height: 100vh;
     width: 100vw;
     font-family: "Poppins", sans-serif;
-    /* overflow: hidden; */
 }
 
 .heading {
@@ -240,5 +239,153 @@ body {
 }
 
 .card:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.308);
+}
+
+.online-courses h1 {
+    position: absolute;
+    width: 280px;
+    height: 54px;
+    left: 500px;
+    top: 920px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    /* identical to box height */
+    color: #413960;
+}
+
+.courses-card {
+    position: absolute;
+    width: 370px;
+    height: 465px;
+    left: 40px;
+    top: 1030px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+}
+
+.pyschology-png {
+    position: absolute;
+    width: 314px;
+    height: 220px;
+    left: 30px;
+    top: 26px;
+    background-color: #CFB6B6;
+    border-radius: 11px;
+}
+
+.courses-card h1 {
+    position: absolute;
+    left: 30px;
+    top: 260px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+    color: #413960;
+}
+
+.card-title {
+    position: absolute;
+    width: 96px;
+    height: 24px;
+    left: 30px;
+    top: 295px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #585859;
+}
+
+.card-c-btn {
+    position: absolute;
+    width: 115px;
+    height: 32px;
+    left: 30px;
+    top: 340px;
+    background: #21b573;
+    border: none;
+    border-radius: 33px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.calendar {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 10px;
+    top: 419px;
+}
+
+.calendar-title {
+    position: absolute;
+    width: 146px;
+    height: 24px;
+    left: 40px;
+    top: 420px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #585859;
+}
+
+.people {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 260px;
+    top: 419px;
+}
+
+.people-title {
+    position: absolute;
+    width: 68px;
+    height: 24px;
+    left: 288px;
+    top: 420px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #585859;
+}
+
+.card-c2 {
+    position: absolute;
+    width: 370px;
+    height: 465px;
+    left: 455px;
+    top: 1030px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+}
+
+.card-c3 {
+    position: absolute;
+    width: 370px;
+    height: 465px;
+    left: 870px;
+    top: 1030px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+}
+
+.courses-card:hover {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.308);
 }
