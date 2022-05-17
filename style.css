@@ -389,3 +389,43 @@ body {
 .courses-card:hover {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.308);
 }
+
+.testimonial h1 {
+    position: absolute;
+    width: 219px;
+    height: 54px;
+    left: 520px;
+    top: 1555px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.testimonial img {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 280px;
+    top: 1700px;
+    border: 1px solid #585859;
+    border-radius: 50%;
+}
+
+.testimonial p {
+    position: absolute;
+    width: 580px;
+    height: 90px;
+    left: 500px;
+    top: 1711px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 188% */
+    color: #000000;
+}
